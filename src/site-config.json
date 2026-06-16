@@ -1,6 +1,6 @@
 {
   "github": { "owner": "A58361", "repo": "ryze" },
-  "domain": "https://ryze.pages.dev",
+  "domain": "https://roy.johal.org",
   "bNavigation": true,
   "homeLabel": "home",
   "navigationItems": ["portfolio", "blog"],
