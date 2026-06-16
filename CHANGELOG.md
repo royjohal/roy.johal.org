@@ -1,5 +1,20 @@
 # CHANGELOG
 
+## [v3.1.0](https://github.com/royjohal/roy.johal.org/releases/tag/v3.1.0) | 2026-06-16
+
+### Features
+- added first version of content for scaffolding [3fc2717](https://github.com/royjohal/roy.johal.org/commit/3fc2717)
+### Other
+- updated readme [ef03d5a](https://github.com/royjohal/roy.johal.org/commit/ef03d5a)
+- update all dependencies to latest [7c4de91](https://github.com/royjohal/roy.johal.org/commit/7c4de91)
+- Update deploy.yml [c03ee18](https://github.com/royjohal/roy.johal.org/commit/c03ee18)
+- approve build scripts for esbuild, msw, sharp [f6fdb5d](https://github.com/royjohal/roy.johal.org/commit/f6fdb5d)
+- Update Introduction.astro [e582b6b](https://github.com/royjohal/roy.johal.org/commit/e582b6b)
+- Update site-config.json [3c2ab13](https://github.com/royjohal/roy.johal.org/commit/3c2ab13)
+- Update astro.config.mjs [c4ca8da](https://github.com/royjohal/roy.johal.org/commit/c4ca8da)
+- Create deploy.yml [e024419](https://github.com/royjohal/roy.johal.org/commit/e024419)
+- Initial commit [f5f89d5](https://github.com/royjohal/roy.johal.org/commit/f5f89d5)
+
 ## [v3.0.0](https://github.com/A58361/Ryze/releases/tag/v3.0.0) | 2026-06-01
 
 ### Features
