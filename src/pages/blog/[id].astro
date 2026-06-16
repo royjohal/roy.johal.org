@@ -1,6 +1,7 @@
 ---
 import IdHeader from "@/components/static/IdHeader.astro";
 import IdLayout from "@/layouts/IdLayout.astro";
+import { TableOfContents } from "@/components/client/TableOfContents";
 import { getCollection, render } from "astro:content";
 import { parse } from "date-fns";
 
@@ -41,6 +42,7 @@ const pubDate = parse(item.data.date, "dd-MM-yyyy", new Date());
     prev={prev}
     next={next}
 >
+    <TableOfContents client:load />
     <article transition:animate="fade">
         <IdHeader backUrl="/blog" items={item.data} />
 

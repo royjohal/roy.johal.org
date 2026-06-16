@@ -6,9 +6,10 @@ import type { siteConfig } from "@/lib/types";
 import { SocialIcon, SubHeadingIcon } from "@/lib/icons";
 // import ScrambledText from "../client/ScrambledText";
 import { Tilt } from "../client/Tilt";
+import photo from "@/assets/photo.png";
 ---
 
-<section class="flex flex-col md:flex-row items-center justify-center gap-6 bg-background border border-border p-6">
+<section class="flex flex-row items-center justify-between gap-6 bg-background border border-border p-6">
     <div class="">
         <div class="flex cursor-default gap-3 select-none">
             {
@@ -50,9 +51,7 @@ import { Tilt } from "../client/Tilt";
         <!--<ScrambledText radius={60} className="text-lg leading-relaxed text-secondary-foreground/80 py-6" client:load>
             {site_config.introduction.description}
         </ScrambledText>-->
-        <p class="text-lg leading-relaxed text-secondary-foreground/80 py-6">
-          {site_config.introduction.description}
-        </p>
+        <p class="text-lg leading-relaxed text-secondary-foreground/80 py-6" set:html={site_config.introduction.description}>
         <div class="flex gap-3">
             {
                 site_config.introduction.ctaItems &&
@@ -63,20 +62,11 @@ import { Tilt } from "../client/Tilt";
                         </a>
                     ))
             }
-            {
-                site_config.introduction.support && (
-                    <a href={site_config.introduction.support.url} target="_blank" rel="noopener noreferrer" class={`${buttonVariants({ variant: site_config.introduction.support.variant as siteConfig["introduction"]["ctaItems"][number]["variant"], size: "default" })} group`}>
-                        <div class="flex flex-col items-center justify-center pr-1">
-                            <span class="scale-120 group-hover:scale-0 opacity-100 group-hover:opacity-0 translate-y-2.5 animation">☆</span>
-                            <span class="scale-0 group-hover:scale-120 opacity-0 group-hover:opacity-100 -translate-y-2.5 animation">★</span>
-                        </div>
-                        <span class="space-y-6 leading-relaxed opacity-90 text-sm">{site_config.introduction.support.label}</span>
-                    </a>
-                )
-            }
         </div>
     </div>
     <Tilt maxTilt={3} client:load>
-        <img src="https://placehold.co/1500" class="aspect-square border border-border select-none" alt="placeholder image" />
+        <div class="group overflow-hidden border border-border w-24 md:w-64 lg:w-72 shrink-0">
+            <img src={photo.src} class="aspect-square object-cover select-none grayscale hover:grayscale-0 transition-all duration-300 w-full" alt="Roy Johal" />
+        </div>
     </Tilt>
 </section>

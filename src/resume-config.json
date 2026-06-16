@@ -1,156 +1,238 @@
 {
-  "name": "Jane Doe",
-  "profession": "Senior Solutions Architect",
-  "summary": "Results-driven professional with 8+ years of experience in designing scalable architectures and leading cross-functional teams. Proven track record of improving system efficiency and driving product-led growth. Adept at bridging the gap between technical execution and business strategy",
-  "email": "jane.doe@example.com",
-  "phone": "+1-555-123-4567",
+  "name": "Roy Johal",
+  "profession": "AI Governance & Research Leader",
+  "summary": "Executive leader with a career spanning AI governance, data strategy, management consulting, and organisational transformation across Australia, Asia-Pacific, and Europe. Currently leading industry research and data governance at ICN Victoria, contributing to government procurement policy and the Local Jobs First framework. Founder of Rossignol Group, an AI advisory consultancy. Executive MBA candidate at AGSM @ UNSW.",
+  "email": "***@***.***",
+  "phone": "+61 459 557 271",
   "location": {
-    "city": "San Francisco",
-    "state": "CA",
-    "country": "USA",
-    "postalCode": "94105"
+    "city": "Melbourne",
+    "state": "VIC",
+    "country": "Australia",
+    "postalCode": "3000"
   },
-  "website": "https://janedoe.dev",
+  "website": "https://roy.johal.org",
   "socials": [
     {
       "platform": "linkedin",
-      "username": "janedoe",
-      "url": "https://linkedin.com/in/janedoe"
+      "username": "royjohal",
+      "url": "https://linkedin.com/in/royjohal"
     },
     {
       "platform": "github",
-      "username": "jd123",
-      "url": "https://github.com/jd123"
-    },
-    {
-      "platform": "twitter",
-      "username": "jane_doe",
-      "url": "https://twitter.com/jane_doe"
+      "username": "royjohal",
+      "url": "https://github.com/royjohal"
     }
   ],
   "experience": [
     {
-      "organization": "TechNova Solutions",
-      "position": "Senior Solutions Architect",
+      "organization": "Industry Capability Network Victoria",
+      "position": "Industry Research Manager (→ Data & AI Governance Manager, FY2026-27)",
       "employmentType": "Full-time",
-      "location": "San Francisco, CA",
-      "startDate": "2020-03-01",
+      "location": "Melbourne, VIC",
+      "startDate": "2024-02-01",
       "endDate": "Present",
-      "responsibility": "Leading the core infrastructure team to build high-availability microservices for enterprise clients.",
-      "highlights": ["Architected a new data pipeline that reduced processing time by 40% using event-driven architecture.", "Mentored a team of 5 junior to mid-level engineers, resulting in a 20% increase in sprint velocity.", "Spearheaded the migration from monolithic architecture to containerized services using Docker and Kubernetes."],
-      "technologies": ["Go", "Node.js", "Kubernetes", "AWS", "PostgreSQL"]
+      "responsibility": "Leading industry research, capability and benchmark data, and commercial growth — contributing directly to ICN Victoria's mission of helping local businesses win government procurement opportunities.",
+      "highlights": [
+        "Presented ICN Victoria's AI strategy to the Board of Directors; regularly contribute industry research and data governance sections to Board reports and CEO briefings.",
+        "Conducted an organisation-wide policy infrastructure gap analysis; personally drafted the Data Classification Policy, Information Classification Policy, and AI Policy.",
+        "Led the business case, stakeholder engagement, and implementation of a project management office across the organisation.",
+        "Authored a federated governance best-practice framework paper for a national working group, drawing on comparative analysis of Australian and international nonprofit models.",
+        "Birthed and drove development of the Local Content Calculator and the Navigator dynamic industry directories platform.",
+        "Built and grew the organisation's most consistent commercial revenue line, representing a significant share of total income.",
+        "Established and managed the University of Melbourne relationship as a commercial and reputational asset.",
+        "Personally initiated and secured new commercial revenue partnerships before business development was formally part of remit."
+      ],
+      "technologies": ["AI Policy", "Data Governance", "Federated Governance", "Stakeholder Engagement"]
     },
     {
-      "organization": "Innovatech Inc.",
-      "position": "Senior Software Engineer",
-      "employmentType": "Full-time",
-      "location": "San Francisco, CA",
-      "startDate": "2016-06-01",
-      "endDate": "2020-02-29",
-      "responsibility": "Designed and implemented scalable backend services for a high-traffic e-commerce platform.",
-      "highlights": ["Developed a recommendation engine that increased user engagement by 25% using machine learning algorithms.", "Optimized database queries, resulting in a 30% reduction in page load times.", "Collaborated with cross-functional teams to deliver new features on time, contributing to a 15% increase in revenue."],
-      "technologies": ["Python", "Django", "AWS", "Redis", "MySQL"]
+      "organization": "Rossignol Group",
+      "position": "Director & Founder",
+      "employmentType": "Self-employed",
+      "location": "Melbourne, VIC",
+      "startDate": "2023-08-01",
+      "endDate": "Present",
+      "responsibility": "Founded and direct a management consultancy providing AI advisory services across strategy, governance, and innovation.",
+      "highlights": [
+        "Accountable for the full remit of the business: services portfolio development, client and stakeholder management, governance and compliance, and day-to-day operations."
+      ],
+      "technologies": ["AI Strategy", "AI Governance", "Management Consulting"]
     },
     {
-      "organization": "CloudTech Solutions",
-      "position": "Full Stack Engineer",
+      "organization": "Synpulse",
+      "position": "Head of Tech Risk / Senior Management Consultant",
       "employmentType": "Full-time",
-      "location": "San Francisco, CA",
-      "startDate": "2014-01-01",
-      "endDate": "2016-05-31",
-      "responsibility": "Developed and maintained web applications for cloud-based services.",
-      "highlights": ["Implemented a real-time analytics dashboard that provided actionable insights to clients, leading to a 10% increase in customer retention.", "Contributed to the development of a multi-tenant SaaS platform, resulting in a 20% growth in the customer base.", "Worked closely with the product team to translate business requirements into technical specifications, ensuring successful project delivery."],
-      "technologies": ["JavaScript", "React", "Node.js", "AWS", "MongoDB"]
+      "location": "Melbourne, VIC",
+      "startDate": "2021-05-01",
+      "endDate": "2023-08-31",
+      "responsibility": "Dual role: practice lead for the Tech Risk service line and senior delivery consultant across banking and wealth management transformation engagements.",
+      "highlights": [
+        "Led the Tech Risk practice for Synpulse Australia, owning go-to-market strategy, service innovation, marketing, resourcing, and mid-to-long-term operational planning.",
+        "Established Synpulse's Melbourne office from inception and opened the African territory for business, generating over $200k in new revenue.",
+        "Managed the transfer of Credit Suisse Trust's Life Referral Business across APAC jurisdictions, spanning legal, finance, IT, and risk/control/governance workstreams across Zurich, Singapore, Hong Kong, Dubai, and Melbourne.",
+        "Program managed the greenfield establishment of a single-family office across Singapore, Australia, and Luxembourg — spanning operating model design, governance structure, enterprise risk management, and systems architecture.",
+        "Led an end-to-end evaluation of Hume Bank's fraud management framework, reporting to the CFO.",
+        "Facilitated delivery of Product Increment 2 during the final launch phase of Trust Bank (Standard Chartered), coordinating more than 10 parallel product teams.",
+        "Managed teams of up to 27 people across complex project deliveries."
+      ],
+      "technologies": ["Tech Risk", "Program Management", "Agile", "Governance", "Banking & Wealth Management"]
+    },
+    {
+      "organization": "AXA Group Operations",
+      "position": "Business Development Manager",
+      "employmentType": "Full-time",
+      "location": "Sydney, NSW",
+      "startDate": "2018-11-01",
+      "endDate": "2020-12-31",
+      "responsibility": "Dual mandate: identifying process optimisation opportunities across the AXA ecosystem and leading the conception and global adoption of AI-driven strategic use cases.",
+      "highlights": [
+        "Led all aspects of the open-source launch of Parsr — AXA Group Operations' first open-source product — including communications strategy, GitHub community management, conference presentations, and external partnerships.",
+        "Orchestrated adoption of Parsr across 13 global AXA locations; currently deployed at 10 entities across 9 countries including Malaysia, Belgium, UK, France, Hong Kong, and Brazil.",
+        "Grew the Parsr open-source community to 2,000+ GitHub stars, attracting collaborators including ABBYY and the University of New South Wales.",
+        "Managed senior stakeholder relationships across AXA's global ecosystem, building trust with C-suite executives and external partners."
+      ],
+      "technologies": ["AI", "Open Source", "Python", "GitHub", "Computational Law"]
+    },
+    {
+      "organization": "Sedect SA",
+      "position": "Co-Chief Technology Officer",
+      "employmentType": "Full-time",
+      "location": "Gland, Switzerland",
+      "startDate": "2017-06-01",
+      "endDate": "2018-09-30",
+      "responsibility": "Held accountability for the Seelow smart IoT metal detection product line, managing product strategy, delivery, and performance for airport clients across Geneva, London, Paris, and Biarritz.",
+      "highlights": [
+        "Conceptualised and led development of a waist and pocket metal detector (WPMD) for Geneva Airport and a 3D time-of-flight crowd analytics system in collaboration with Hitachi.",
+        "Managed C-level stakeholder relationships at all client airport sites.",
+        "Represented the company at international trade fairs in Montpellier (2017) and Los Angeles (2018)."
+      ],
+      "technologies": ["IoT", "Product Management", "3D Time-of-Flight", "Smart Infrastructure"]
+    },
+    {
+      "organization": "Mt Pelerin",
+      "position": "Head of Innovation",
+      "employmentType": "Full-time",
+      "location": "Geneva, Switzerland",
+      "startDate": "2016-12-01",
+      "endDate": "2017-05-31",
+      "responsibility": "Led product innovation for a blockchain-based fintech startup, building and launching Ibani — an online cross-border payments platform for currency and crypto conversion.",
+      "highlights": [
+        "Managed stakeholder expectations across investors, clients, and the product team; shaped and iterated the product roadmap in an agile environment.",
+        "Led commercial outreach and early client acquisition targeting SME employees working cross-border between France and Switzerland."
+      ],
+      "technologies": ["Blockchain", "Fintech", "Product Management", "Agile"]
+    },
+    {
+      "organization": "EDF (Électricité de France)",
+      "position": "PhD Candidate / Researcher",
+      "employmentType": "Full-time",
+      "location": "Paris, France",
+      "startDate": "2013-01-01",
+      "endDate": "2016-12-31",
+      "responsibility": "Conducted computational geometry research, published in peer-reviewed journals, and presented at international conferences.",
+      "highlights": [
+        "Published in peer-reviewed journals; presented at AFIG 2016, GTMG 2015, and REFIG 2014.",
+        "Taught advanced algorithms to engineering students at the Polytechnical School of Grenoble.",
+        "Supervised two master's research theses at EDF Paris-Saclay."
+      ],
+      "technologies": ["Computational Geometry", "C++", "Research", "Academic Publishing"]
     }
   ],
   "education": [
     {
-      "institution": "State University of Technology",
-      "degree": "Master of Science",
-      "fieldOfStudy": "Computer Science",
-      "startDate": "2012-09-01",
-      "endDate": "2014-06-30",
-      "grade": "3.8/4.0",
-      "coursework": ["Advanced Algorithms", "Distributed Systems", "Cloud Computing", "Machine Learning"]
+      "institution": "AGSM @ UNSW Business School",
+      "degree": "Executive MBA",
+      "fieldOfStudy": "Business Administration & Management",
+      "startDate": "2020-01-01",
+      "endDate": "2026-12-31",
+      "grade": "In progress",
+      "coursework": ["Marketing Management", "AI Strategy", "Strategy Design & Management", "Negotiation Skills", "Accounting & Financial Management", "Executive Blueprint (Leadership)"]
     },
     {
-      "institution": "Global College",
-      "degree": "Bachelor of Science",
-      "fieldOfStudy": "Information Technology",
-      "startDate": "2008-09-01",
+      "institution": "Stockholm School of Economics",
+      "degree": "International Elective",
+      "fieldOfStudy": "Corporate Sustainability and Responsibility",
+      "startDate": "2023-08-01",
+      "endDate": "2023-12-31",
+      "grade": "",
+      "coursework": []
+    },
+    {
+      "institution": "Yale School of Management",
+      "degree": "International Elective",
+      "fieldOfStudy": "Natural Capital: Risks and Opportunities in Global Resource Systems",
+      "startDate": "2024-01-01",
+      "endDate": "2024-05-31",
+      "grade": "",
+      "coursework": []
+    },
+    {
+      "institution": "Université Grenoble Alpes",
+      "degree": "Master of Research (MSc)",
+      "fieldOfStudy": "Computational & Applied Mathematics",
+      "startDate": "2010-09-01",
       "endDate": "2012-06-30",
-      "grade": "3.6/4.0",
-      "coursework": ["Data Structures", "Database Systems", "Software Engineering", "Operating Systems"]
+      "grade": "",
+      "coursework": []
+    },
+    {
+      "institution": "Punjab Technical University",
+      "degree": "Bachelor of Technology (Eng)",
+      "fieldOfStudy": "Computer Sciences Engineering",
+      "startDate": "2005-09-01",
+      "endDate": "2009-06-30",
+      "grade": "",
+      "coursework": []
     }
   ],
   "skills": [
     {
-      "name": "Programming Languages",
-      "tags": ["Go", "Python", "JavaScript", "Java"]
+      "name": "Governance & Risk",
+      "tags": ["AI Governance", "Data Governance", "Tech Risk", "Enterprise Risk Management", "Policy Drafting", "Compliance"]
     },
     {
-      "name": "Cloud Platforms",
-      "tags": ["AWS", "Azure", "Google Cloud"]
+      "name": "Strategy & Commercial",
+      "tags": ["Commercial Strategy", "Business Development", "Go-to-Market", "Stakeholder Management", "Board Engagement"]
     },
     {
-      "name": "DevOps Tools",
-      "tags": ["Docker", "Kubernetes", "Terraform"]
+      "name": "Program & Project",
+      "tags": ["Program Management", "Project Management", "Agile", "Jira", "PMO"]
     },
     {
-      "name": "Databases",
-      "tags": ["PostgreSQL", "MySQL", "MongoDB", "Redis"]
+      "name": "Data & AI",
+      "tags": ["AI Strategy", "Data Architecture", "Open Source", "Research Methodology"]
     },
     {
-      "name": "Frameworks",
-      "tags": ["Django", "React", "Node.js"]
+      "name": "Languages",
+      "tags": ["English", "French", "Hindi", "Punjabi"]
     }
   ],
   "projects": [
     {
-      "name": "DataFlow Analytics",
-      "description": "An open-source telemetry dashboard for monitoring real-time server metrics with low overhead",
-      "url": "https://dataflow.com",
-      "highlights": ["Achieved 1,000+ stars on GitHub within the first 6 months of release.", "Implemented WebSocket connections to handle 10k+ concurrent data streams."],
-      "technologies": ["Vue.js", "Node.js", "Redis", "WebSockets"]
-    },
-    {
-      "name": "E-commerce Recommendation Engine",
-      "description": "A machine learning-based recommendation engine that increases user engagement on e-commerce platforms.",
-      "url": "https://ecomrecommender.com",
-      "highlights": ["Increased user engagement by 25% through personalized product recommendations.", "Utilized collaborative filtering and content-based algorithms to improve recommendation accuracy."],
-      "technologies": ["Python", "Scikit-learn", "TensorFlow", "AWS"]
-    },
-    {
-      "name": "Real-time Chat Application",
-      "description": "A scalable real-time chat application built with WebSockets and microservices architecture.",
-      "url": "https://realtimechat.com",
-      "highlights": ["Handled 50k+ concurrent users with low latency using a microservices architecture.", "Implemented end-to-end encryption to ensure user privacy and security."],
-      "technologies": ["Node.js", "WebSockets", "Docker", "Kubernetes", "AWS"]
+      "name": "Parsr (AXA Group Operations)",
+      "description": "AXA Group Operations' first open-source document parsing and structuring tool, conceived and launched to global adoption.",
+      "url": "https://github.com/axa-group/Parsr",
+      "highlights": [
+        "Grew to 2,000+ GitHub stars with collaborators including ABBYY and UNSW.",
+        "Deployed across 10 AXA entities in 9 countries including Malaysia, Belgium, UK, France, Hong Kong, and Brazil."
+      ],
+      "technologies": ["Python", "Open Source", "AI", "Document Intelligence"]
     }
   ],
-  "certifications": [
-    {
-      "name": "AWS Certified Solutions Architect - Associate",
-      "issuer": "Amazon Web Services",
-      "date": "2021-05-01",
-      "url": "https://aws.amazon.com/certification/solutions-architect-associate/",
-      "credentialId": "AWS-1234567890"
-    }
-  ],
+  "certifications": [],
   "courses": [
     {
-      "name": "Advanced Cloud Architecture",
-      "issuer": "Udemy",
-      "date": "2023-08-01",
-      "url": "https://www.udemy.com/course/advanced-cloud-architecture/",
-      "credentialId": "UD-9876543210"
+      "name": "Corporate Sustainability and Responsibility",
+      "issuer": "Stockholm School of Economics",
+      "date": "2023-12-01",
+      "url": "",
+      "credentialId": ""
     },
     {
-      "name": "Machine Learning A-Z",
-      "issuer": "Coursera",
-      "date": "2022-11-01",
-      "url": "https://www.coursera.org/learn/machine-learning",
-      "credentialId": "CR-1234567890"
+      "name": "Natural Capital: Risks and Opportunities in Global Resource Systems",
+      "issuer": "Yale School of Management",
+      "date": "2024-05-01",
+      "url": "",
+      "credentialId": ""
     }
   ],
   "languages": [
@@ -159,26 +241,26 @@
       "fluency": "Native"
     },
     {
-      "language": "Spanish",
-      "fluency": "Elementary Level Proficiency"
-    }
-  ],
-  "volunteering": [
+      "language": "French",
+      "fluency": "Native"
+    },
     {
-      "organization": "Code for Good",
-      "position": "Mentor",
-      "startDate": "2019-01-01",
-      "endDate": "Present",
-      "responsibility": "Mentoring high school students from underrepresented backgrounds in basic web development (HTML, CSS, JavaScript)."
+      "language": "Hindi",
+      "fluency": "Native"
+    },
+    {
+      "language": "Punjabi",
+      "fluency": "Native"
     }
   ],
+  "volunteering": [],
   "publications": [
     {
-      "title": "The Future of Serverless Architecture",
-      "publisher": "Tech Journal Monthly",
-      "releaseDate": "2021-08-10",
-      "url": "https://techjournal.example.com/serverless",
-      "description": "A comprehensive analysis of cold starts and mitigation strategies in AWS Lambda."
+      "title": "Répétition linéaire de primitives comme opérateur dans un graphe de construction d'objets B-REP",
+      "publisher": "REFIG 2014",
+      "releaseDate": "2014-01-01",
+      "url": "",
+      "description": "Peer-reviewed journal publication in computational geometry. Additional conference contributions at AFIG 2016 and GTMG 2015."
     }
   ]
 }

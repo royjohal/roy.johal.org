@@ -1,41 +1,54 @@
 "use client";
 
 import { useState, useCallback } from "react";
-import { Button } from "../ui/button";
-import { RiShareForwardLine, RiShareForwardFill, RiShareLine, RiShareFill } from "@remixicon/react";
+import { RiFileCopyLine, RiCheckLine } from "@remixicon/react";
+import { AnimatePresence, motion } from "motion/react";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "../ui/tooltip";
 
 export default function ShareButton() {
-  const [active, setActive] = useState(false);
+  const [copied, setCopied] = useState(false);
 
   const handleShare = useCallback(async () => {
-    setActive(true);
-
-    const url = window.location.href;
-    const title = document.title;
-    const text = document.querySelector("meta[name='description']")?.getAttribute("content") ?? "";
-
-    if (navigator.share) {
-      try {
-        await navigator.share({ title, text, url });
-      } catch {
-        // user cancelled
-      }
-    } else {
-      try {
-        await navigator.clipboard.writeText(url);
-        await new Promise((r) => setTimeout(r, 2000));
-      } catch {
-        // clipboard unavailable
-      }
+    if (copied) return;
+    try {
+      await navigator.clipboard.writeText(window.location.href);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch {
+      // clipboard unavailable
     }
-
-    setActive(false);
-  }, []);
+  }, [copied]);
 
   return (
-    <button onClick={handleShare} aria-label="share" className="cursor-pointer group">
-      <RiShareForwardLine className="size-4 group-hover:hidden" />
-      <RiShareForwardFill className="size-4 hidden group-hover:block" />
-    </button>
+    <div className="relative flex items-center gap-2">
+      <TooltipProvider delayDuration={300}>
+        <Tooltip>
+          <TooltipTrigger asChild>
+            <button onClick={handleShare} aria-label="copy link" className="cursor-pointer group">
+              {copied
+                ? <RiCheckLine className="size-4 text-foreground" />
+                : <RiFileCopyLine className="size-4 group-hover:text-foreground text-muted-foreground animation" />
+              }
+            </button>
+          </TooltipTrigger>
+          <TooltipContent>
+            <p>copy link to clipboard</p>
+          </TooltipContent>
+        </Tooltip>
+      </TooltipProvider>
+      <AnimatePresence>
+        {copied && (
+          <motion.span
+            initial={{ opacity: 0, x: -4, filter: "blur(4px)" }}
+            animate={{ opacity: 1, x: 0, filter: "blur(0px)" }}
+            exit={{ opacity: 0, x: -4, filter: "blur(4px)" }}
+            transition={{ duration: 0.2, ease: "easeOut" }}
+            className="text-xs text-muted-foreground select-none"
+          >
+            link copied
+          </motion.span>
+        )}
+      </AnimatePresence>
+    </div>
   );
 }
