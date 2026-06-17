@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [v3.4.2](https://github.com/royjohal/roy.johal.org/releases/tag/v3.4.2) | 2026-06-17
+
+### Bug Fixes
+- exit 0 after internal push to suppress false error [a291be3](https://github.com/royjohal/roy.johal.org/commit/a291be3)
+
 ## [v3.4.1](https://github.com/royjohal/roy.johal.org/releases/tag/v3.4.1) | 2026-06-17
 
 ### Bug Fixes
