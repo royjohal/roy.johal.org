@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [v3.3.0](https://github.com/royjohal/roy.johal.org/releases/tag/v3.3.0) | 2026-06-17
+
+### Features
+- photo removed [ff09d7e](https://github.com/royjohal/roy.johal.org/commit/ff09d7e)
+
 ## [v3.2.0](https://github.com/royjohal/roy.johal.org/releases/tag/v3.2.0) | 2026-06-17
 
 ### Features
