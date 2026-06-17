@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [v3.4.3](https://github.com/royjohal/roy.johal.org/releases/tag/v3.4.3) | 2026-06-17
+
+### Bug Fixes
+- revert to exit 1 with clear message after internal push [81e93e5](https://github.com/royjohal/roy.johal.org/commit/81e93e5)
+
 ## [v3.4.2](https://github.com/royjohal/roy.johal.org/releases/tag/v3.4.2) | 2026-06-17
 
 ### Bug Fixes
