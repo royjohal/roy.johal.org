@@ -7,7 +7,7 @@ fi
 
 if npx aureus bump; then
   # bump created a new commit — push everything including the bump, then cancel original push
-  AUREUS_INTERNAL_PUSH=true git push && exit 0
+  AUREUS_INTERNAL_PUSH=true git push && echo "✓ Push complete (including version bump)" && exit 1
 fi
 
 exit 0
