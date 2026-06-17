@@ -4,4 +4,10 @@
 if [ "$AUREUS_INTERNAL_PUSH" = "true" ]; then
   exit 0
 fi
-npx aureus bump && exit 0
+
+if npx aureus bump; then
+  # bump created a new commit — push everything including the bump, then cancel original push
+  AUREUS_INTERNAL_PUSH=true git push && exit 1
+fi
+
+exit 0
