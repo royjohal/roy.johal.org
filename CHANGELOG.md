@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [v3.4.1](https://github.com/royjohal/roy.johal.org/releases/tag/v3.4.1) | 2026-06-17
+
+### Bug Fixes
+- prevent aureus version bump race condition on push [8a5c01b](https://github.com/royjohal/roy.johal.org/commit/8a5c01b)
+
 ## [v3.4.0](https://github.com/royjohal/roy.johal.org/releases/tag/v3.4.0) | 2026-06-17
 
 ### Features
