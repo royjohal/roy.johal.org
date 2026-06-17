@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [v3.4.0](https://github.com/royjohal/roy.johal.org/releases/tag/v3.4.0) | 2026-06-17
+
+### Features
+- add first blog post and fix OG default image [83b4504](https://github.com/royjohal/roy.johal.org/commit/83b4504)
+
 ## [v3.3.0](https://github.com/royjohal/roy.johal.org/releases/tag/v3.3.0) | 2026-06-17
 
 ### Features
