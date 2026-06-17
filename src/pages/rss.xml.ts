@@ -16,8 +16,8 @@ export async function GET(context: { site: any }) {
 
   return rss({
     trailingSlash: false,
-    title: "Ryze Blog",
-    description: "A reader-friendly blog with accessibility, SEO and responsiveness out of the box",
+    title: "Roy Johal",
+    description: "Writing on AI governance, strategy, and the unglamorous work of making organisations actually function.",
     site: context.site,
     items: items.map((item) => ({
       link: `/blog/${item.id}`,
