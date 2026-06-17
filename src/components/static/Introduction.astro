@@ -5,11 +5,9 @@ import site_config from "@/site-config.json";
 import type { siteConfig } from "@/lib/types";
 import { SocialIcon, SubHeadingIcon } from "@/lib/icons";
 // import ScrambledText from "../client/ScrambledText";
-import { Tilt } from "../client/Tilt";
-import photo from "@/assets/photo.png";
 ---
 
-<section class="flex flex-row items-center justify-between gap-6 bg-background border border-border p-6">
+<section class="bg-background border border-border p-6">
     <div class="">
         <div class="flex cursor-default gap-3 select-none">
             {
@@ -64,9 +62,4 @@ import photo from "@/assets/photo.png";
             }
         </div>
     </div>
-    <Tilt maxTilt={3} client:load>
-        <div class="group overflow-hidden border border-border w-24 md:w-64 lg:w-72 shrink-0">
-            <img src={photo.src} class="aspect-square object-cover select-none grayscale hover:grayscale-0 transition-all duration-300 w-full" alt="Roy Johal" />
-        </div>
-    </Tilt>
 </section>
