@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [v3.2.0](https://github.com/royjohal/roy.johal.org/releases/tag/v3.2.0) | 2026-06-17
+
+### Features
+- rss fixed [160acc7](https://github.com/royjohal/roy.johal.org/commit/160acc7)
+
 ## [v3.1.0](https://github.com/royjohal/roy.johal.org/releases/tag/v3.1.0) | 2026-06-16
 
 ### Features

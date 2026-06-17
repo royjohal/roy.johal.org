@@ -1,7 +1,7 @@
 {
   "name": "ryze",
   "type": "module",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "description": "An astro starter for personal portfolio and mini blogs",
   "keywords": [
     "astro",
@@ -52,7 +52,7 @@
     "@remixicon/react": "^4.9.0",
     "@resvg/resvg-js": "^2.6.2",
     "@tailwindcss/vite": "^4.3.1",
-    "astro": "^6.4.7",
+    "astro": "^6.4.6",
     "astro-mermaid": "^2.0.2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
