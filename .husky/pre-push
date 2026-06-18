@@ -5,9 +5,15 @@ if [ "$AUREUS_INTERNAL_PUSH" = "true" ]; then
   exit 0
 fi
 
+HEAD_BEFORE=$(git rev-parse HEAD)
+
 if npx aureus bump; then
-  # bump created a new commit — push everything including the bump, then cancel original push
-  AUREUS_INTERNAL_PUSH=true git push && echo "✓ Push complete (including version bump)" && exit 1
+  HEAD_AFTER=$(git rev-parse HEAD)
+
+  # Only re-push and cancel original if bump actually created a commit
+  if [ "$HEAD_BEFORE" != "$HEAD_AFTER" ]; then
+    AUREUS_INTERNAL_PUSH=true git push && echo "✓ Push complete (including version bump)" && exit 1
+  fi
 fi
 
 exit 0
