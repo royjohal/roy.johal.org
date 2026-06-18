@@ -10,12 +10,9 @@ HEAD_BEFORE=$(git rev-parse HEAD)
 if npx aureus bump; then
   HEAD_AFTER=$(git rev-parse HEAD)
 
-  # Only re-push and cancel original if bump actually created a commit
   if [ "$HEAD_BEFORE" != "$HEAD_AFTER" ]; then
-    AUREUS_INTERNAL_PUSH=true git push || exit 1
-    git fetch origin
-    echo "✓ Push complete (including version bump)"
-    exit 0
+    echo "✓ Version bumped. Run 'git push' again to push the bump."
+    exit 1
   fi
 fi
 
