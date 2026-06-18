@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [v3.4.5](https://github.com/royjohal/roy.johal.org/releases/tag/v3.4.5) | 2026-06-18
+
+### Bug Fixes
+- exit 0 after internal push to suppress error when bump succeeds [b136053](https://github.com/royjohal/roy.johal.org/commit/b136053)
+
 ## [v3.4.4](https://github.com/royjohal/roy.johal.org/releases/tag/v3.4.4) | 2026-06-18
 
 ### Bug Fixes
