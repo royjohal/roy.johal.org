@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## [v3.4.10](https://github.com/royjohal/roy.johal.org/releases/tag/v3.4.10) | 2026-06-18
+
+### Bug Fixes
+- configure git before aureus bump to allow commits [8c0f729](https://github.com/royjohal/roy.johal.org/commit/8c0f729)
+- use node 22 to match engines requirement [c0d05ae](https://github.com/royjohal/roy.johal.org/commit/c0d05ae)
+- remove local auto-bump, move to CI pipeline [bed6d10](https://github.com/royjohal/roy.johal.org/commit/bed6d10)
+### Other
+- update github actions to v5 for node 24 support [eee5b12](https://github.com/royjohal/roy.johal.org/commit/eee5b12)
+- update to latest action versions and add .nvmrc [443e936](https://github.com/royjohal/roy.johal.org/commit/443e936)
+- update lockfile after removing unused ryze workspace dependency [3530139](https://github.com/royjohal/roy.johal.org/commit/3530139)
+- add aureus bump workflow to handle versioning [c6f124b](https://github.com/royjohal/roy.johal.org/commit/c6f124b)
+
 ## [v3.4.9](https://github.com/royjohal/roy.johal.org/releases/tag/v3.4.9) | 2026-06-18
 
 ### Bug Fixes
