@@ -11,8 +11,10 @@ if npx aureus bump; then
   HEAD_AFTER=$(git rev-parse HEAD)
 
   if [ "$HEAD_BEFORE" != "$HEAD_AFTER" ]; then
-    echo "✓ Version bumped. Run 'git push' again to push the bump."
-    exit 1
+    git push || exit 1
+    git fetch origin
+    git reset --hard origin/main
+    exit 0
   fi
 fi
 
