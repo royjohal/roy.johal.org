@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [v3.4.7](https://github.com/royjohal/roy.johal.org/releases/tag/v3.4.7) | 2026-06-18
+
+### Bug Fixes
+- fetch remote tracking branches instead of checked-out branch [824d9e0](https://github.com/royjohal/roy.johal.org/commit/824d9e0)
+
 ## [v3.4.6](https://github.com/royjohal/roy.johal.org/releases/tag/v3.4.6) | 2026-06-18
 
 ### Bug Fixes
