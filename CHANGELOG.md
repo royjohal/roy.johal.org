@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [v3.4.6](https://github.com/royjohal/roy.johal.org/releases/tag/v3.4.6) | 2026-06-18
+
+### Bug Fixes
+- fetch after internal push to sync refs before original push [88f6dbf](https://github.com/royjohal/roy.johal.org/commit/88f6dbf)
+
 ## [v3.4.5](https://github.com/royjohal/roy.johal.org/releases/tag/v3.4.5) | 2026-06-18
 
 ### Bug Fixes
