@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [v3.4.4](https://github.com/royjohal/roy.johal.org/releases/tag/v3.4.4) | 2026-06-18
+
+### Bug Fixes
+- pre-push hook only blocks if aureus actually creates bump commit [396c86a](https://github.com/royjohal/roy.johal.org/commit/396c86a)
+### Other
+- removed pill buttons from homepage [dc9241c](https://github.com/royjohal/roy.johal.org/commit/dc9241c)
+
 ## [v3.4.3](https://github.com/royjohal/roy.johal.org/releases/tag/v3.4.3) | 2026-06-17
 
 ### Bug Fixes
