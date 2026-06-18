@@ -1,21 +1,3 @@
 #!/bin/sh
-
-# aureus-setup-anchor
-if [ "$AUREUS_INTERNAL_PUSH" = "true" ]; then
-  exit 0
-fi
-
-HEAD_BEFORE=$(git rev-parse HEAD)
-
-if npx aureus bump; then
-  HEAD_AFTER=$(git rev-parse HEAD)
-
-  if [ "$HEAD_BEFORE" != "$HEAD_AFTER" ]; then
-    git push || exit 1
-    git fetch origin
-    git reset --hard origin/main
-    exit 0
-  fi
-fi
-
+# Version bumping handled in CI via aureus
 exit 0
