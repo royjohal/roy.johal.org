@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [v3.4.8](https://github.com/royjohal/roy.johal.org/releases/tag/v3.4.8) | 2026-06-18
+
+### Bug Fixes
+- remove internal push, let two-stage flow handle bumping cleanly [b20588d](https://github.com/royjohal/roy.johal.org/commit/b20588d)
+
 ## [v3.4.7](https://github.com/royjohal/roy.johal.org/releases/tag/v3.4.7) | 2026-06-18
 
 ### Bug Fixes
