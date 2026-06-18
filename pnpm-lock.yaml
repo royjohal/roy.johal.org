@@ -98,9 +98,6 @@ importers:
       remark-math:
         specifier: ^6.0.0
         version: 6.0.0
-      ryze:
-        specifier: 'link:'
-        version: 'link:'
       sanitize-html:
         specifier: ^2.17.5
         version: 2.17.5
@@ -149,7 +146,7 @@ importers:
         version: 2.7.0
       shadcn:
         specifier: ^4.11.0
-        version: 4.11.0(typescript@5.9.3)
+        version: 4.11.0
 
 packages:
 
@@ -3974,11 +3971,6 @@ packages:
     resolution: {integrity: sha512-faYHw0anBbc/kWF3zFTEnxSFOAGUX9GFbOBthvDdLsIlEoWOFOtS0zgCiQYwIskL9iGXZL3kAXD8OoZ4GmMATA==}
     engines: {node: '>= 18'}
 
-  typescript@5.9.3:
-    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
-    engines: {node: '>=14.17'}
-    hasBin: true
-
   uc.micro@2.1.0:
     resolution: {integrity: sha512-ARDJmphmdvUk6Glw7y9DQ2bFkKBHwQHLi2lsaH6PPmz/Ka9sFOBsBluozhDltWmnv9u/cF6Rt87znRTPV+yp/A==}
 
@@ -5922,14 +5914,12 @@ snapshots:
     dependencies:
       layout-base: 2.0.1
 
-  cosmiconfig@9.0.2(typescript@5.9.3):
+  cosmiconfig@9.0.2:
     dependencies:
       env-paths: 2.2.1
       import-fresh: 3.3.1
       js-yaml: 4.2.0
       parse-json: 5.2.0
-    optionalDependencies:
-      typescript: 5.9.3
 
   cross-spawn@7.0.6:
     dependencies:
@@ -8135,7 +8125,7 @@ snapshots:
 
   setprototypeof@1.2.0: {}
 
-  shadcn@4.11.0(typescript@5.9.3):
+  shadcn@4.11.0:
     dependencies:
       '@babel/core': 7.29.7
       '@babel/parser': 7.29.7
@@ -8146,7 +8136,7 @@ snapshots:
       '@types/validate-npm-package-name': 4.0.2
       browserslist: 4.28.2
       commander: 14.0.3
-      cosmiconfig: 9.0.2(typescript@5.9.3)
+      cosmiconfig: 9.0.2
       dedent: 1.7.2
       deepmerge: 4.3.1
       diff: 8.0.4
@@ -8429,9 +8419,6 @@ snapshots:
       content-type: 2.0.0
       media-typer: 1.1.0
       mime-types: 3.0.2
-
-  typescript@5.9.3:
-    optional: true
 
   uc.micro@2.1.0: {}
 
