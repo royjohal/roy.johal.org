@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [v3.4.9](https://github.com/royjohal/roy.johal.org/releases/tag/v3.4.9) | 2026-06-18
+
+### Bug Fixes
+- reset local to remote after internal push to allow original push to succeed [8f9d828](https://github.com/royjohal/roy.johal.org/commit/8f9d828)
+
 ## [v3.4.8](https://github.com/royjohal/roy.johal.org/releases/tag/v3.4.8) | 2026-06-18
 
 ### Bug Fixes
