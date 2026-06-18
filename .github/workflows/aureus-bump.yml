@@ -22,6 +22,11 @@ jobs:
         with:
           node-version-file: .nvmrc
 
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
       - name: Get HEAD before bump
         id: before
         run: echo "HEAD=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
@@ -35,9 +40,6 @@ jobs:
 
       - name: Push bump if created
         if: steps.before.outputs.HEAD != steps.after.outputs.HEAD
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git push
+        run: git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
