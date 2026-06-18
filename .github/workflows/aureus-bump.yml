@@ -1,0 +1,43 @@
+name: Aureus Bump
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  bump:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Get HEAD before bump
+        id: before
+        run: echo "HEAD=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
+
+      - name: Run aureus bump
+        run: npx aureus bump
+
+      - name: Get HEAD after bump
+        id: after
+        run: echo "HEAD=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
+
+      - name: Push bump if created
+        if: steps.before.outputs.HEAD != steps.after.outputs.HEAD
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
