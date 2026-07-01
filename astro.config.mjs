@@ -35,7 +35,7 @@ export default defineConfig({
       wrap: true,
     },
     remarkPlugins: [remarkMath],
-    rehypePlugins: [rehypeSlug, [rehypeAutolinkHeadings, { behavior: "wrap" }], [rehypeExternalLinks, { target: "_blank", rel: ["nofollow", "noopener", "noreferrer"] }], rehypeKatex, rehypeFigure],
+    rehypePlugins: [rehypeSlug, [rehypeAutolinkHeadings, { behavior: "append", properties: { ariaHidden: "true", tabIndex: -1, class: "heading-anchor" } }], [rehypeExternalLinks, { target: "_blank", rel: ["nofollow", "noopener", "noreferrer"] }], rehypeKatex, rehypeFigure],
   },
 
   vite: {
