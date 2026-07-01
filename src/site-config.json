@@ -23,7 +23,7 @@
       { "type": "mastodon", "url": "https://aus.social/@morgoth_bauglir75" },
       { "type": "github", "url": "https://github.com/royjohal" }
     ],
-    "description": "I work at the intersection of AI governance, institutional design, and the unglamorous work of making organisations actually function.<br><br>A career that followed interest - across research labs, airport tech, open-source AI, financial services, management consulting, and government procurement. Four countries and a lot of context-switching later, this site is where I've decided to consolidate my think-out-louds."
+    "description": "AI governance, institutional design, and the unglamorous work of making organisations actually function. This site is where I think out loud."
   },
   "featured": {
     "portfolio": { "visible": true },
