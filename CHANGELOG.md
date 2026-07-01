@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [v3.4.11](https://github.com/royjohal/roy.johal.org/releases/tag/v3.4.11) | 2026-07-01
+
+### Bug Fixes
+- replace heading anchor wrap with append icon, tune h3 size to 2xl [25aecaa](https://github.com/royjohal/roy.johal.org/commit/25aecaa)
+### Other
+- upgraded packages [1ea26f6](https://github.com/royjohal/roy.johal.org/commit/1ea26f6)
+
 ## [v3.4.10](https://github.com/royjohal/roy.johal.org/releases/tag/v3.4.10) | 2026-06-18
 
 ### Bug Fixes
