@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [v3.4.12](https://github.com/royjohal/roy.johal.org/releases/tag/v3.4.12) | 2026-07-01
+
+### Bug Fixes
+- tighten hero bio, fix footer copyright spacing, pin node to v26 [b7f4d79](https://github.com/royjohal/roy.johal.org/commit/b7f4d79)
+
 ## [v3.4.11](https://github.com/royjohal/roy.johal.org/releases/tag/v3.4.11) | 2026-07-01
 
 ### Bug Fixes
