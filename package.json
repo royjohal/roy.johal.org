@@ -38,10 +38,13 @@
     "build": "astro build && npx -y pagefind --site dist",
     "build:serve": "astro build && npx -y pagefind --site dist --serve",
     "preview": "astro preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
     "astro": "astro",
     "prepare": "husky"
   },
   "dependencies": {
+    "@astrojs/markdown-remark": "^7.3.0",
     "@astrojs/react": "^6.0.0",
     "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "^3.7.3",
@@ -80,15 +83,20 @@
     "tw-animate-css": "^1.4.0"
   },
   "devDependencies": {
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.7",
     "@types/markdown-it": "^14.1.2",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@types/sanitize-html": "^2.16.1",
+    "@vitest/ui": "^5.0.0",
     "eslint": "^10.6.0",
     "eslint-plugin-astro": "^2.1.1",
     "globals": "^17.7.0",
+    "happy-dom": "^20.14.0",
     "husky": "^9.1.7",
     "jiti": "^2.7.0",
-    "shadcn": "^4.12.0"
+    "shadcn": "^4.12.0",
+    "vitest": "^5.0.0"
   }
 }
