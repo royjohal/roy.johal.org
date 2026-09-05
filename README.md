@@ -2,6 +2,43 @@
 
 Personal blog and portfolio of Roy Johal, hosted at [roy.johal.org](https://roy.johal.org).
 
+## Getting Started
+
+### Prerequisites
+
+- Node.js 22.12.0 or later
+- npm (comes with Node.js)
+
+### Installation & Development
+
+1. Clone the repository and install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
+   The site will be available at `http://localhost:3000` (or the port shown in your terminal).
+
+### Building & Preview
+
+- **Build for production:**
+  ```bash
+  npm run build
+  ```
+
+- **Preview the built site locally:**
+  ```bash
+  npm run preview
+  ```
+
+- **Build and serve with local preview:**
+  ```bash
+  npm run build:serve
+  ```
+
 ## Built with (thanks to):
 
 - [Astro 6](https://astro.build)
