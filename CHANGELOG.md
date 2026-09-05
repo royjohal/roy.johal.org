@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [v3.5.0](https://github.com/royjohal/roy.johal.org/releases/tag/v3.5.0) | 2026-09-05
+
+### Features
+- add vitest setup with tests and upgrade all dependencies [10a6852](https://github.com/royjohal/roy.johal.org/commit/10a6852)
+### Other
+- add Getting Started instructions to README [4429744](https://github.com/royjohal/roy.johal.org/commit/4429744)
+
 ## [v3.4.12](https://github.com/royjohal/roy.johal.org/releases/tag/v3.4.12) | 2026-07-01
 
 ### Bug Fixes
