@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## [v3.5.1](https://github.com/royjohal/roy.johal.org/releases/tag/v3.5.1) | 2026-09-06
+
+### Bug Fixes
+- self-host Poppins and Lora fonts to eliminate FOUT on load (#1) [f68e527](https://github.com/royjohal/roy.johal.org/commit/f68e527)
+### Other
+- update pnpm-lock.yaml to match package.json [59c0162](https://github.com/royjohal/roy.johal.org/commit/59c0162)
+- switch to Poppins + Lora font pairing [54b5517](https://github.com/royjohal/roy.johal.org/commit/54b5517)
+
 ## [v3.5.0](https://github.com/royjohal/roy.johal.org/releases/tag/v3.5.0) | 2026-09-05
 
 ### Features
