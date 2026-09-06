@@ -1,5 +1,11 @@
 /* font */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Lora:wght@400;600;700&display=swap");
+@import "@fontsource/poppins/latin-400.css";
+@import "@fontsource/poppins/latin-500.css";
+@import "@fontsource/poppins/latin-600.css";
+@import "@fontsource/poppins/latin-700.css";
+@import "@fontsource/lora/latin-400.css";
+@import "@fontsource/lora/latin-600.css";
+@import "@fontsource/lora/latin-700.css";
 @import "@fontsource-variable/geist-mono";
 @import "tailwindcss";
 @import "tw-animate-css";
