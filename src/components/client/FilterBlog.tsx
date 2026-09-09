@@ -14,7 +14,7 @@ export default function FilterBlog({ items }: { items: blogConfig[] }) {
 
       {filteredAndSortedItems.length === 0 ? (
         <div className="flex items-center justify-center border border-border p-6">
-          <p className="paragraph">No blogs found.</p>
+          <p className="text-sm text-muted-foreground">No blogs found.</p>
         </div>
       ) : (
         <div className="space-y-0 border border-border p-6">
