@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## [v3.5.3](https://github.com/royjohal/roy.johal.org/releases/tag/v3.5.3) | 2026-09-09
+
+### Bug Fixes
+- render all card titles in Lora and bump blog list title weight [65af07c](https://github.com/royjohal/roy.johal.org/commit/65af07c)
+### Other
+- align OG image with site type and palette, drop dead CSS vars [fda7112](https://github.com/royjohal/roy.johal.org/commit/fda7112)
+- unify card title weights and remove dead font-related code [d68dca2](https://github.com/royjohal/roy.johal.org/commit/d68dca2)
+
 ## [v3.5.2](https://github.com/royjohal/roy.johal.org/releases/tag/v3.5.2) | 2026-09-09
 
 ### Bug Fixes
