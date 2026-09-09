@@ -17,7 +17,7 @@ export function BlogCard({ item }: { item: blogConfig }) {
         </div>
       </div>
       <div className="flex flex-col items-start justify-start px-1">
-        <h3 className="text-lg font-medium leading-snug text-foreground/90 group-hover:text-foreground/90 animation line-clamp-1">{item.data.title}</h3>
+        <h3 className="text-lg font-semibold leading-snug text-foreground/90 group-hover:text-foreground/90 animation line-clamp-1">{item.data.title}</h3>
         <p className="mt-0.5 text-base text-muted-foreground line-clamp-1">{item.data.description}</p>
       </div>
     </a>
