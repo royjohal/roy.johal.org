@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [v3.5.2](https://github.com/royjohal/roy.johal.org/releases/tag/v3.5.2) | 2026-09-09
+
+### Bug Fixes
+- apply --font-heading to headings so Lora actually renders [490490d](https://github.com/royjohal/roy.johal.org/commit/490490d)
+
 ## [v3.5.1](https://github.com/royjohal/roy.johal.org/releases/tag/v3.5.1) | 2026-09-06
 
 ### Bug Fixes
