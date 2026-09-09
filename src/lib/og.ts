@@ -1,9 +1,13 @@
 import satori from "satori";
 import sharp from "sharp";
 import fs from "node:fs";
+import site_config from "@/site-config.json";
 
-const regularFont = fs.readFileSync("src/assets/fonts/Geist-Regular.ttf");
-const boldFont = fs.readFileSync("src/assets/fonts/Geist-Bold.ttf");
+const poppinsRegular = fs.readFileSync("src/assets/fonts/Poppins-400.woff");
+const poppinsMedium = fs.readFileSync("src/assets/fonts/Poppins-500.woff");
+const loraSemibold = fs.readFileSync("src/assets/fonts/Lora-600.woff");
+
+const wordmark = site_config.domain.replace(/^https?:\/\//, "");
 
 export interface OGOptions {
   title: string;
@@ -29,7 +33,7 @@ export async function generateOGImage({
           display: "flex",
           flexDirection: "column",
           padding: "60px 80px",
-          fontFamily: "Geist",
+          fontFamily: "Poppins",
         },
         children: [
           {
@@ -44,7 +48,7 @@ export async function generateOGImage({
                       width: 12,
                       height: 12,
                       borderRadius: "50%",
-                      background: "#f97316",
+                      background: "#a1a1aa",
                     },
                   },
                 },
@@ -52,7 +56,7 @@ export async function generateOGImage({
                   type: "span",
                   props: {
                     style: { fontSize: 20, color: "#a1a1aa", fontWeight: 400 },
-                    children: "Ryze",
+                    children: wordmark,
                   },
                 },
               ],
@@ -66,8 +70,9 @@ export async function generateOGImage({
             type: "h1",
             props: {
               style: {
+                fontFamily: "Lora",
                 fontSize: title.length > 40 ? 40 : 56,
-                fontWeight: 700,
+                fontWeight: 600,
                 color: "#fafafa",
                 lineHeight: 1.15,
                 margin: 0,
@@ -106,8 +111,8 @@ export async function generateOGImage({
                               style: {
                                 fontSize: 14,
                                 fontWeight: 500,
-                                color: "#f97316",
-                                border: "1px solid #f97316",
+                                color: "#a1a1aa",
+                                border: "1px solid #3f3f46",
                                 borderRadius: 4,
                                 padding: "4px 12px",
                               },
@@ -139,15 +144,21 @@ export async function generateOGImage({
       height: 630,
       fonts: [
         {
-          name: "Geist",
-          data: regularFont,
+          name: "Poppins",
+          data: poppinsRegular,
           weight: 400,
           style: "normal",
         },
         {
-          name: "Geist",
-          data: boldFont,
-          weight: 700,
+          name: "Poppins",
+          data: poppinsMedium,
+          weight: 500,
+          style: "normal",
+        },
+        {
+          name: "Lora",
+          data: loraSemibold,
+          weight: 600,
           style: "normal",
         },
       ],
