@@ -41,6 +41,9 @@ html {
     body {
         @apply bg-background overflow-y-scroll scroll-smooth font-sans antialiased text-foreground;
     }
+    h1, h2, h3, h4, h5, h6 {
+        font-family: var(--font-heading);
+    }
     main {
         @apply selection:bg-secondary-foreground selection:text-secondary relative z-10 min-h-screen bg-background;
     }
