@@ -23,14 +23,16 @@ export default function ShareButton() {
     <div className="relative flex items-center gap-2">
       <TooltipProvider delayDuration={300}>
         <Tooltip>
-          <TooltipTrigger asChild>
-            <button onClick={handleShare} aria-label="copy link" className="cursor-pointer group">
-              {copied
-                ? <RiCheckLine className="size-4 text-foreground" />
-                : <RiFileCopyLine className="size-4 group-hover:text-foreground text-muted-foreground animation" />
-              }
-            </button>
-          </TooltipTrigger>
+          <TooltipTrigger
+            render={
+              <button onClick={handleShare} aria-label="copy link" className="cursor-pointer group">
+                {copied
+                  ? <RiCheckLine className="size-4 text-foreground" />
+                  : <RiFileCopyLine className="size-4 group-hover:text-foreground text-muted-foreground animation" />
+                }
+              </button>
+            }
+          />
           <TooltipContent>
             <p>copy link to clipboard</p>
           </TooltipContent>
