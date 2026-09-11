@@ -7,18 +7,18 @@ Personal blog and portfolio of Roy Johal, hosted at [roy.johal.org](https://roy.
 ### Prerequisites
 
 - Node.js 22.12.0 or later
-- npm (comes with Node.js)
+- [pnpm](https://pnpm.io) (this project's package manager — see `.github/workflows/deploy.yml`)
 
 ### Installation & Development
 
 1. Clone the repository and install dependencies:
    ```bash
-   npm install
+   pnpm install
    ```
 
 2. Start the development server:
    ```bash
-   npm run dev
+   pnpm dev
    ```
    The site will be available at `http://localhost:3000` (or the port shown in your terminal).
 
@@ -26,17 +26,17 @@ Personal blog and portfolio of Roy Johal, hosted at [roy.johal.org](https://roy.
 
 - **Build for production:**
   ```bash
-  npm run build
+  pnpm build
   ```
 
 - **Preview the built site locally:**
   ```bash
-  npm run preview
+  pnpm preview
   ```
 
 - **Build and serve with local preview:**
   ```bash
-  npm run build:serve
+  pnpm build:serve
   ```
 
 ## Built with (thanks to):

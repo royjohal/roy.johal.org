@@ -41,6 +41,9 @@
         p {
             @apply text-base leading-relaxed text-secondary-foreground/80;
         }
+        [data-slot] p {
+            @apply text-inherit;
+        }
 
         a {
             @apply text-secondary-foreground font-medium underline underline-offset-6 hover:underline-offset-3 active:bg-secondary-foreground active:text-background transition-all duration-150 decoration-muted-foreground decoration-1 text-base;
